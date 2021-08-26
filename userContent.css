@@ -1,0 +1,20 @@
+@-moz-document domain(lifewire.com) {
+	#onetrust-banner-sdk,
+	.onetrust-pc-dark-filter {
+		display: none!important
+	}
+}
+
+@-moz-document domain(yahoo.com) {
+	div[id^=strm-ad-],
+	id[class*=' strm-ad-'] {
+		display: none!important
+	}
+}
+
+@-moz-document domain(stackoverflow.com) {
+	.js-consent-banner {
+		display: none!important
+	}
+}
+
